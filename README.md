@@ -1,6 +1,6 @@
 # npmtest-fuse.js
 
-#### test coverage for  [fuse.js (v2.6.2)](https://github.com/krisk/Fuse#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-fuse.js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-fuse.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-fuse.js.svg)](https://travis-ci.org/npmtest/node-npmtest-fuse.js)
+#### basic test coverage for  [fuse.js (v2.7.3)](http://fusejs.io)  [![npm package](https://img.shields.io/npm/v/npmtest-fuse.js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-fuse.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-fuse.js.svg)](https://travis-ci.org/npmtest/node-npmtest-fuse.js)
 
 #### Lightweight fuzzy-search
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-fuse.js/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-fuse.js/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-fuse.js/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-fuse.js/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-fuse.js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-fuse.js/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-fuse.js/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-fuse.js/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-fuse.js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-fuse.js/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-fuse.js/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-fuse.js/build/coverage.html/index.html)
 
@@ -36,7 +36,8 @@
 
 {
     "author": {
-        "name": "Kirollos Risk"
+        "name": "Kirollos Risk",
+        "url": "http://kiro.me"
     },
     "bugs": {
         "url": "https://github.com/krisk/Fuse/issues"
@@ -44,19 +45,27 @@
     "dependencies": {},
     "description": "Lightweight fuzzy-search",
     "devDependencies": {
-        "grunt-bump": "0.0.11",
-        "uglify-js": "*",
-        "vows": "0.5.x"
+        "babel-core": "^6.24.1",
+        "babel-loader": "^6.4.1",
+        "babel-plugin-add-module-exports": "0.2.1",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-stage-2": "^6.24.1",
+        "vows": "0.5.x",
+        "webpack": "^2.4.1"
     },
     "directories": {},
     "dist": {
-        "shasum": "d5d994fda96f543b5a51df38b72cec9cc60d9dea",
-        "tarball": "https://registry.npmjs.org/fuse.js/-/fuse.js-2.6.2.tgz"
+        "shasum": "dd9c7ac3e59420ab057e2b25f4e3bddae4f940a5",
+        "tarball": "https://registry.npmjs.org/fuse.js/-/fuse.js-2.7.3.tgz"
     },
-    "gitHead": "a546cb3aa2a845e4f4cb2460ad94e0b92ccbe407",
-    "homepage": "https://github.com/krisk/Fuse#readme",
+    "gitHead": "194692ae70c41f5dbd3805d4048e1ac3b776acb6",
+    "homepage": "http://fusejs.io",
+    "keywords": [
+        "fuzzy",
+        "bitap"
+    ],
     "license": "Apache",
-    "main": "./src/fuse.js",
+    "main": "dist/fuse.js",
     "maintainers": [
         {
             "name": "krisk"
@@ -69,10 +78,13 @@
         "url": "git+https://github.com/krisk/Fuse.git"
     },
     "scripts": {
-        "test": "vows --spec"
+        "build": "WEBPACK_ENV=build webpack && WEBPACK_ENV=dev webpack",
+        "dev": "WEBPACK_ENV=dev webpack --progress --colors --watch",
+        "test": "vows test/**.js"
     },
     "types": "./index.d.ts",
-    "version": "2.6.2"
+    "version": "2.7.3",
+    "bin": {}
 }
 ```
 
