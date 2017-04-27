@@ -1,28 +1,28 @@
 <svg height="398" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="398" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-26 02:38:17 +0000   158102 bytes  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-26 02:38:17 +0000     1824 bytes  CHANGELOG.md</tspan>
-<tspan x="10" y="58">  2.  2017-04-26 02:38:17 +0000      204 bytes  COPYRIGHT.txt</tspan>
-<tspan x="10" y="74">  3.  2017-04-26 02:38:17 +0000    11357 bytes  LICENSE</tspan>
-<tspan x="10" y="90">  4.  2017-04-26 02:38:17 +0000     2168 bytes  README.md</tspan>
-<tspan x="10" y="106">  5.  2017-04-26 02:38:17 +0000      189 bytes  backers.md</tspan>
-<tspan x="10" y="122">  6.  2017-04-26 02:38:17 +0000    30922 bytes  dist/fuse.js</tspan>
-<tspan x="10" y="138">  7.  2017-04-26 02:38:17 +0000    45790 bytes  dist/fuse.js.map</tspan>
-<tspan x="10" y="154">  8.  2017-04-26 02:38:17 +0000    10376 bytes  dist/fuse.min.js</tspan>
-<tspan x="10" y="170">  9.  2017-04-26 02:38:17 +0000      864 bytes  index.d.ts</tspan>
-<tspan x="10" y="186"> 10.  2017-04-26 02:38:17 +0000     2533 bytes  package.json</tspan>
-<tspan x="10" y="202"> 11.  2017-04-26 02:38:17 +0000      625 bytes  src/bitap/bitap_matched_indices.js</tspan>
-<tspan x="10" y="218"> 12.  2017-04-26 02:38:17 +0000      257 bytes  src/bitap/bitap_pattern_alphabet.js</tspan>
-<tspan x="10" y="234"> 13.  2017-04-26 02:38:17 +0000      498 bytes  src/bitap/bitap_regex_search.js</tspan>
-<tspan x="10" y="250"> 14.  2017-04-26 02:38:17 +0000      357 bytes  src/bitap/bitap_score.js</tspan>
-<tspan x="10" y="266"> 15.  2017-04-26 02:38:17 +0000     4399 bytes  src/bitap/bitap_search.js</tspan>
-<tspan x="10" y="282"> 16.  2017-04-26 02:38:17 +0000     2822 bytes  src/bitap/index.js</tspan>
-<tspan x="10" y="298"> 17.  2017-04-26 02:38:17 +0000     1026 bytes  src/helpers/deep_value.js</tspan>
-<tspan x="10" y="314"> 18.  2017-04-26 02:38:17 +0000       95 bytes  src/helpers/is_array.js</tspan>
-<tspan x="10" y="330"> 19.  2017-04-26 02:38:17 +0000    11464 bytes  src/index.js</tspan>
-<tspan x="10" y="346"> 20.  2017-04-26 02:38:17 +0000     1430 bytes  test/fixtures/books.json</tspan>
-<tspan x="10" y="362"> 21.  2017-04-26 02:38:17 +0000    27669 bytes  test/index.js</tspan>
-<tspan x="10" y="378"> 22.  2017-04-26 02:38:17 +0000     1233 bytes  webpack.config.js</tspan>
+<tspan x="10" y="26">  0.  2017-04-27 21:32:16 +0000   158549 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-27 21:32:16 +0000     1935 bytes  CHANGELOG.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-27 21:32:16 +0000      204 bytes  COPYRIGHT.txt</tspan>
+<tspan x="10" y="74">  3.  2017-04-27 21:32:16 +0000    11357 bytes  LICENSE</tspan>
+<tspan x="10" y="90">  4.  2017-04-27 21:32:16 +0000     2168 bytes  README.md</tspan>
+<tspan x="10" y="106">  5.  2017-04-27 21:32:16 +0000      189 bytes  backers.md</tspan>
+<tspan x="10" y="122">  6.  2017-04-27 21:32:16 +0000    31026 bytes  dist/fuse.js</tspan>
+<tspan x="10" y="138">  7.  2017-04-27 21:32:16 +0000    45918 bytes  dist/fuse.js.map</tspan>
+<tspan x="10" y="154">  8.  2017-04-27 21:32:16 +0000    10376 bytes  dist/fuse.min.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-27 21:32:16 +0000      864 bytes  index.d.ts</tspan>
+<tspan x="10" y="186"> 10.  2017-04-27 21:32:16 +0000     2533 bytes  package.json</tspan>
+<tspan x="10" y="202"> 11.  2017-04-27 21:32:16 +0000      625 bytes  src/bitap/bitap_matched_indices.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-27 21:32:16 +0000      257 bytes  src/bitap/bitap_pattern_alphabet.js</tspan>
+<tspan x="10" y="234"> 13.  2017-04-27 21:32:16 +0000      498 bytes  src/bitap/bitap_regex_search.js</tspan>
+<tspan x="10" y="250"> 14.  2017-04-27 21:32:16 +0000      357 bytes  src/bitap/bitap_score.js</tspan>
+<tspan x="10" y="266"> 15.  2017-04-27 21:32:16 +0000     4399 bytes  src/bitap/bitap_search.js</tspan>
+<tspan x="10" y="282"> 16.  2017-04-27 21:32:16 +0000     2926 bytes  src/bitap/index.js</tspan>
+<tspan x="10" y="298"> 17.  2017-04-27 21:32:16 +0000     1026 bytes  src/helpers/deep_value.js</tspan>
+<tspan x="10" y="314"> 18.  2017-04-27 21:32:16 +0000       95 bytes  src/helpers/is_array.js</tspan>
+<tspan x="10" y="330"> 19.  2017-04-27 21:32:16 +0000    11464 bytes  src/index.js</tspan>
+<tspan x="10" y="346"> 20.  2017-04-27 21:32:16 +0000     1430 bytes  test/fixtures/books.json</tspan>
+<tspan x="10" y="362"> 21.  2017-04-27 21:32:16 +0000    27669 bytes  test/index.js</tspan>
+<tspan x="10" y="378"> 22.  2017-04-27 21:32:16 +0000     1233 bytes  webpack.config.js</tspan>
 </text>
 </svg>
