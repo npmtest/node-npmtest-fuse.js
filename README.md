@@ -1,6 +1,6 @@
 # npmtest-fuse.js
 
-#### basic test coverage for  [fuse.js (v2.7.3)](http://fusejs.io)  [![npm package](https://img.shields.io/npm/v/npmtest-fuse.js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-fuse.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-fuse.js.svg)](https://travis-ci.org/npmtest/node-npmtest-fuse.js)
+#### basic test coverage for  [fuse.js (v3.0.0)](http://fusejs.io)  [![npm package](https://img.shields.io/npm/v/npmtest-fuse.js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-fuse.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-fuse.js.svg)](https://travis-ci.org/npmtest/node-npmtest-fuse.js)
 
 #### Lightweight fuzzy-search
 
@@ -55,10 +55,10 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "dd9c7ac3e59420ab057e2b25f4e3bddae4f940a5",
-        "tarball": "https://registry.npmjs.org/fuse.js/-/fuse.js-2.7.3.tgz"
+        "shasum": "7b6c0b177f6ffc6421e4f229843b3f70a21b1ac5",
+        "tarball": "https://registry.npmjs.org/fuse.js/-/fuse.js-3.0.0.tgz"
     },
-    "gitHead": "194692ae70c41f5dbd3805d4048e1ac3b776acb6",
+    "gitHead": "3f9cb5e7912520c11ccd9c2fb5787e5f09633980",
     "homepage": "http://fusejs.io",
     "keywords": [
         "fuzzy",
@@ -83,7 +83,7 @@
         "test": "vows test/**.js"
     },
     "types": "./index.d.ts",
-    "version": "2.7.3",
+    "version": "3.0.0",
     "bin": {}
 }
 ```
